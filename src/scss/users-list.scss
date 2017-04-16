@@ -1,0 +1,44 @@
+.users-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.users-list-container {
+  margin-top: 2em;
+}
+
+.users-list-item {
+  margin: 1em 0;
+
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  .username {
+    font-size: 1.25em;
+    margin: 1em;
+    display: inline-block;
+  }
+}
+
+.users-list-avatar {
+  margin: 0 auto;
+}
+
+.users-list-avatar {
+  border-radius: 50em;
+  max-width: 150px;
+}
+
+.users-list-item-details {
+  .btn {
+    display: inline-block;
+    margin: 8px;
+  }
+}
+
+.nav-link {
+  font-size: 1.25em;
+}

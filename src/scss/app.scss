@@ -1,0 +1,29 @@
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@import './searchbar';
+@import './users-list';
+
+h1 {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+header {
+  background: $midnight;
+  color: white;
+  padding: 1em;
+
+  h1 {
+    margin: 0;
+    padding: 1em;
+  }
+}
